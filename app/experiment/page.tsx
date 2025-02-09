@@ -168,7 +168,7 @@ const App = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-bold">Nissan GT-R</h2>
                 <p className="mt-4">
-                NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the "race track".
+                NISMO has become the embodiment of Nissan&apos;s outstanding performance, inspired by the most unforgiving proving ground, the &ldquo;race track&ldquo;.
                 </p>
                 <ul className="mt-6 space-y-2">
                   <li><strong>Type:</strong> Sport</li>
@@ -234,11 +234,10 @@ const App = () => {
                         </div>
                         {/* Star Ratings */}
                         <div className="flex items-center">
-                          {Array.from({ length: 5 }, (_, i) => (
-                            <img
-                              src="/star.png"
-                            />
+                        {Array.from({ length: 5 }).map((_, i) => (
+                            <img key={i} src="/star.png" alt="Star" />
                           ))}
+
                         </div>
                       </div>
                       {/* Review Text */}

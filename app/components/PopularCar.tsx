@@ -1,6 +1,6 @@
 import React from "react";
 import CarCard from "@/app/components/CarCards";
-import Link from "next/link";
+
 
 // Responsive RecommendedCar Component
 export const RecommendedCar: React.FC = () => {
