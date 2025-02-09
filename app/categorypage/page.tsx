@@ -5,10 +5,7 @@ import CarCard from '@/app/components/CarCards';
 import { LuArrowDownUp } from "react-icons/lu";
 import Link from "next/link";
 
-
-
-// Responsive RecommendedCar Component
-export const CategoryPage: React.FC = () => {
+const CategoryPage: React.FC = () => {
   const cars = [
     {
       name: "All New Rush",
