@@ -6,7 +6,7 @@ import { LuArrowDownUp } from "react-icons/lu";
 import Link from "next/link";
 
 // Responsive RecommendedCar Component
-export const RecommendedCar: React.FC = () => {
+export const CategoryPage: React.FC = () => {
   const cars = [
     {
       name: "All New Rush",
@@ -309,7 +309,7 @@ export const RecommendedCar: React.FC = () => {
   );
 };
 
-export default RecommendedCar;
+export default CategoryPage;
 
 
 
