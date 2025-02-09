@@ -5,6 +5,8 @@ import CarCard from '@/app/components/CarCards';
 import { LuArrowDownUp } from "react-icons/lu";
 import Link from "next/link";
 
+
+
 // Responsive RecommendedCar Component
 export const CategoryPage: React.FC = () => {
   const cars = [
@@ -289,7 +291,7 @@ export const CategoryPage: React.FC = () => {
           <CarCard key={index} {...car} />
         ))}
       </div>
-
+     
       {/* Show More Button */}
       <div className="flex justify-center mt-12">
        <Link href="/experiment" >
